@@ -23,7 +23,9 @@ swift rlhf \
     --model Qwen/Qwen3-1.7B \
     --dataset open-r1/DAPO-Math-17k-Processed \
     --use_hf true \
-    --reward_funcs accuracy \
+    --external_plugins custom_reward_plugin.py \
+    --reward_funcs accuracy conditional_math \
+    --reward_weights 1.0 1.0 \
     --enable_thinking false \
     --epsilon 0.2 \
     --beta 0.04 \
@@ -44,11 +46,11 @@ swift rlhf \
     --num_train_epochs 1 \
     --per_device_train_batch_size 1 \
     --gradient_accumulation_steps 8 \
-    --learning_rate 1e-5 \
+    --learning_rate 5e-6 \
     --lr_scheduler_type cosine \
-    --save_steps 100 \
+    --save_steps 50 \
     --save_total_limit 10 \
-    --max_steps 1000 \
+    --max_steps 400 \
     --logging_steps 1 \
     --warmup_ratio 0.0 \
     --dataloader_num_workers 4 \
@@ -58,4 +60,5 @@ swift rlhf \
     --report_to tensorboard \
     --max_grad_norm 1.0 \
     --disable_tqdm true \
-    --output_dir output/grpo_math_qwen3_1.7b
+    # --resume_from_checkpoint output/grpo_math_qwen3_1.7b_v12/v1-20260507-110656/checkpoint-250 \
+    --output_dir output/grpo_math_qwen3_1.7b_v12

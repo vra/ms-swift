@@ -1,0 +1,4046 @@
+{
+  "name": "Baseline",
+  "adapter": null,
+  "accuracy": 0.358,
+  "correct": 179,
+  "total": 500,
+  "subjects": {
+    "Precalculus": {
+      "correct": 5,
+      "total": 56,
+      "accuracy": 0.08928571428571429
+    },
+    "Intermediate Algebra": {
+      "correct": 15,
+      "total": 97,
+      "accuracy": 0.15463917525773196
+    },
+    "Algebra": {
+      "correct": 68,
+      "total": 124,
+      "accuracy": 0.5483870967741935
+    },
+    "Number Theory": {
+      "correct": 23,
+      "total": 62,
+      "accuracy": 0.3709677419354839
+    },
+    "Prealgebra": {
+      "correct": 43,
+      "total": 82,
+      "accuracy": 0.524390243902439
+    },
+    "Geometry": {
+      "correct": 11,
+      "total": 41,
+      "accuracy": 0.2682926829268293
+    },
+    "Counting & Probability": {
+      "correct": 14,
+      "total": 38,
+      "accuracy": 0.3684210526315789
+    }
+  },
+  "results": [
+    {
+      "id": "test/precalculus/807.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "\\left( 3, \\frac{\\pi}{2} \\right)",
+      "pred_answer": "(3, \\frac{\\pi",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1994.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "p - q",
+      "pred_answer": "Change variables m = j + k. For each m ≥ 2, j ranges from 1 to m - 1. Therefore, the sum becomes sum_{m=2}^\\infty (m - 1)/m^3. Then, split into sum_{m=2}^\\infty 1/m^2 - sum_{m=2}^\\infty 1/m^3 = (p -",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2584.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "\\frac{14}{3}",
+      "pred_answer": "\\dfrac{14",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/572.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "9",
+      "pred_answer": "9",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1349.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "\\text{Evelyn}",
+      "pred_answer": "Evelyn",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1622.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "42",
+      "pred_answer": "Each internal side is shared by two triangles. How many internal sides are there? Each triangle has two sides that are radii, which are internal? Wait, no. The internal sides are the ones that are shared between two triangles. If you have six triangles, each with two sides that are radii, but each radius",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/515.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "27",
+      "pred_answer": "Alternatively, maybe there's a different approach. Let me think. Suppose the sum is k³. Then, k³ = a + (a + 1) + (a + 2) = 3a + 3 = 3(a + 1). Therefore, k³ = 3(a + 1). Therefore, a",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/927.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "90^\\circ",
+      "pred_answer": "For the second line: 6x = -y = -4z. Let me write this as 6x = -y and 6x = -4z. So, 6x = -y ⇒ y",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2036.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "3\\sqrt{13}",
+      "pred_answer": "3\\sqrt{13",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1139.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "4",
+      "pred_answer": "What if we have (2*3*4)*(5 + 1)? That",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1032.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "2220",
+      "pred_answer": "But let me check if there is a smaller number. For example, 2020 is 202",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1197.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{3}{56}",
+      "pred_answer": "Let me compute q(0) = p(0)(0² - 1) - 0 = p(0)(-1) - 0 = -p(0). On the other hand, q(0) is also equal to a(0 - 2)(0 - 3)(0 - 4)(0 - 5)(0 - 6)(",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/737.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "284",
+      "pred_answer": "Wait, but let me check again. The problem",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/248.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "5",
+      "pred_answer": "5",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/1303.json",
+      "subject": "Precalculus",
+      "level": 1,
+      "gt_answer": "\\sqrt{51}",
+      "pred_answer": "\\sqrt{51",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/990.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "6 - 5i",
+      "pred_answer": "Wait, no. Wait, if T = -c, then z - c = z + T. So then (z + T) * e^{iθ} + c = z * e^{iθ} + T * e^{iθ} + c. But in my original formula, it's (z - c) * e^{iθ} + c = z * e^{iθ} - c * e^{iθ} + c. So these are",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/134.json",
+      "subject": "Intermediate Algebra",
+      "level": 1,
+      "gt_answer": "-50",
+      "pred_answer": "Then, if n is even, S(n) = -n/",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1199.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "\\pi",
+      "pred_answer": "But since the Asymptote code is given, let me try to analyze it. The Asymptote code defines f(x) = 2*sin(3x + π) + 1. So, a = 2, b = 3, c = π, d = 1. So, the graph is a sine wave with amplitude 2, vertical shift 1, period 2π / 3, phase shift -π / 3. The graph is drawn from -3π to 3π, which is a range of 6π. The Asymptote code also has some labels for the axes, with",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/434.json",
+      "subject": "Geometry",
+      "level": 1,
+      "gt_answer": "28",
+      "pred_answer": "But in the problem statement, it says \"the number of degrees represented by x\". So x is the angle at",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1000.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "3",
+      "pred_answer": "But let me check if there's another way where maybe the cubic has three real roots, but not necessarily with the quadratic having a double root. Wait, but according to the factorization, the cubic factors into (x + 1)(quadratic). So, if the quadratic has two real roots, then the cubic has three real roots. If the quadratic has one real root (a double root), then the cubic has a triple root. So, in either case, all roots are real. Therefore, the minimal a is 3",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1098.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "6+9i",
+      "pred_answer": "6 + 9i",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/607.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "13535",
+      "pred_answer": "First term:",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1837.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "5",
+      "pred_answer": "But let me check if there's another possible interpretation. For example, maybe the pay is fixed per group, so if you are assigned a group of x dogs, you get paid x times some amount. So, if Denali walks 16 + 4x dogs, how many groups is that? It would be (16 + 4x)/x groups. Similarly, Nate walks 12 dogs, so 12/x groups. Then, the ratio of their pay would be [(16 + 4x)/x] / [12/x] = (16 + 4x)/",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2193.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "x=5",
+      "pred_answer": "5",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2427.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "10",
+      "pred_answer": "But let me check once more with another rate. Suppose",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1388.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "1,-2",
+      "pred_answer": "So, quadratic equation: n² + n",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/525.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "144",
+      "pred_answer": "So, using inclusion-exclusion again: number of arrangements where Rosa is adjacent to Pierre or Thomas is 2*5! + 2*5! -",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1840.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "78",
+      "pred_answer": "78",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/779.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "-2 + 7i",
+      "pred_answer": "-2 + 7i",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/666.json",
+      "subject": "Counting & Probability",
+      "level": 2,
+      "gt_answer": "225",
+      "pred_answer": "Alternatively, maybe the problem is about the number of different battalions that can be formed if you have to send a certain number of soldiers, but the question is not about combinations. For",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/864.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "52_8",
+      "pred_answer": "52_8",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1302.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "11\\sqrt2",
+      "pred_answer": "11\\sqrt{2",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/134.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "720",
+      "pred_answer": "Ah! The problem is that when you have a block of",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1072.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "\\frac{243}{625}",
+      "pred_answer": "45 * 243 = 45*(200 + 40 + 3) = 45*200 + 45*40 + 45*3 = 9,000 + 1,800 + 135 = 9,000 + 1,800 is 10,800 + 135 is 10,9",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/119.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "-125",
+      "pred_answer": "-125",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/627.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/428.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "3, 5, 7",
+      "pred_answer": "Left side: (7 - 3)^3 + (7 - 7)^3 = 4^3 +",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/967.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "72",
+      "pred_answer": "The central angle is the angle between two adjacent vertices as seen from the center. So",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/24.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "2000",
+      "pred_answer": "2000",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/45.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "23",
+      "pred_answer": "23",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/930.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "12",
+      "pred_answer": "Then from A (-0.5, √3/2) to dir(180) (-1, 0): distance is sqrt[(-1 - (-0.5))^2 + (0 - √3/2)^2] = sqrt[(-0.5)^2 + (-√3/2)^2] = sqrt[0.25 +",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/627.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "17",
+      "pred_answer": "Vector AB is (1,5). Vector AC is (2,1). So adding vector AB + vector AC gives (3,6). So if D is A + AB + AC, which is (5 + 1 + 2, 3 + 5 + 1) = (8,",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2214.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1454.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "70 \\sqrt{2}",
+      "pred_answer": "To find the minimum,",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1558.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "1.25",
+      "pred_answer": "1.25",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/178.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/285.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "6",
+      "pred_answer": "First, z² + z + 1 = 0. The roots are z = [-1 ± √(1 - 4)] / 2 = [-1 ± √(-3)] / 2 = (-1 ± i√3)/2. These are the primitive 6th roots of unity, since e^(2πi/6) = e^(πi/3) = cos(π/3) + i sin(π/3) = 1/2 + i√3/2, and the other root is e^(πi/3 + πi)",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/305.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "5",
+      "pred_answer": "5",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1265.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "\\frac{3}{2}",
+      "pred_answer": "\\dfrac{3",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1388.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "83",
+      "pred_answer": "83",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/1055.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "203",
+      "pred_answer": "Wait, maybe the problem is that initially, you had seven bags, each with the same number of coins. Then, you found a bag with 53 coins. So, that bag was one of the original seven. Therefore, the original seven bags had x coins each, and one of them was 53. Therefore, x must be 53? But that would mean that all seven bags had 53 coins, so total coins were 7*53 = 371. Then, you found a bag with 53 coins, but that's already part of the original seven. So, you have eight bags? Wait, but if you had seven bags, and you found one more, making eight, but the original seven had 53 each. So, the eight bags would be seven with 53 and one with 53? No, that's still seven. Wait, maybe the problem is that you found a bag with 53 coins, which was not part of the original seven? But the problem says \"you have seven bags... you find a bag of 53 coins.\" So, maybe you had seven bags, and then you found a bag (which was not part of the original seven?), but that doesn't make sense. The problem says \"you have seven bags... you find a bag of 53 coins.\" So, maybe the original seven bags had some number of coins, and then you found a bag (which was one of the original seven) with 53 coins. Therefore, the original seven bags had the same number of coins, say x, and one of them was 53. Therefore, x must be 53? But that would mean that all seven bags had 53 coins, so total coins were 7*53 = 371. Then, you found a bag with 53 coins, so you have eight bags? But if you had seven bags, and you found one more, then you have eight bags. But if the original seven had 53 each, then the eight bags would be seven with 53 and one with 53? Wait, that's still seven. So, maybe the problem is that you found a bag with 53 coins, which was not part of the original seven? But then, how did you have seven bags? Maybe the problem is that you had seven bags, and then you found",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1217.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "x^5 - x^4 + x^3 - x^2 + x - 1",
+      "pred_answer": "Multiply by -1: 1 * (-1) = -1. Add to next coefficient: 0",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/951.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "12",
+      "pred_answer": "12",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/1105.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "-\\frac{\\pi}{6}",
+      "pred_answer": "-\\dfrac{\\pi",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/572.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "0.15",
+      "pred_answer": "0.15",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/187.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/769.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "11",
+      "pred_answer": "11",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1168.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "16",
+      "pred_answer": "16",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/722.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "9901",
+      "pred_answer": "9901",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1247.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "5",
+      "pred_answer": "5",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/956.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "(6,31,-1)",
+      "pred_answer": "(33p + 20p) +",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1247.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "-256",
+      "pred_answer": "Therefore, I think the answer is $-256$. But let me check if there's another way to approach this problem, maybe using substitution or something",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/675.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "4",
+      "pred_answer": "Let",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/279.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "10",
+      "pred_answer": "2. $ p_2(1) = 1 + 1 =",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1146.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "\\frac{35}{64}",
+      "pred_answer": "$ \\sin x \\cos 6x = \\frac{1}{2} [\\sin(x + 6x) +",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1747.json",
+      "subject": "Prealgebra",
+      "level": 1,
+      "gt_answer": "1",
+      "pred_answer": "1",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2046.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "x^3+3x-6",
+      "pred_answer": "x^3 + 3x - 6",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1233.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "10",
+      "pred_answer": "Therefore,",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1313.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "46",
+      "pred_answer": "tan53° tan81° ≈ 1.3",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/207.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "-1",
+      "pred_answer": "-1",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/46.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "40_9",
+      "pred_answer": "40_9",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/516.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "2516_8",
+      "pred_answer": "Group 2: 001₂ = 1",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/456.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2253.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "\\frac{3\\sqrt{3}}{4}",
+      "pred_answer": "\\dfrac{3\\sqrt{3",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/24313.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "\\cot x",
+      "pred_answer": "\\cot x",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/1114.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "\\frac{11}{36}",
+      "pred_answer": "Alternatively, if someone thought that the product is a multiple of 5 if the product is 0 mod 5, which is equivalent to the product being 0 mod 5. Since 5 is prime, the product is 0 mod 5 if and only if at least one",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/623.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "0",
+      "pred_answer": "Wait, suppose that the domain is x < a or x > b. If the domain is all real numbers except 0, then the only way that can happen is if a and b are 0. Because if a is something else,",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1004.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/47.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "(-2,1)",
+      "pred_answer": "(-2, 1)",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/192.json",
+      "subject": "Prealgebra",
+      "level": 1,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1849.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "501",
+      "pred_answer": "Case 3: k = 0. As before, log(0x)",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1035.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2700.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{3}{2}",
+      "pred_answer": "Similarly, for S2, the square with opposite corners at (4,2) and (5,3). Let me check if that's axis-aligned. The coordinates go from (4,2) to (5,3). If it's axis-aligned, then the square would have sides parallel to the axes, so the other two corners would be (4,2) and (5,3), but then the other two corners would be (4,3) and (5,2). Wait, but then the square would have sides of length 1, but the distance between (4",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/2046.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "2",
+      "pred_answer": "We saw that f(2)=0. Let's check f(",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/893.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "-1",
+      "pred_answer": "-1",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/353.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "\\sqrt{5}",
+      "pred_answer": "\\sqrt{5",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/307.json",
+      "subject": "Prealgebra",
+      "level": 1,
+      "gt_answer": "240",
+      "pred_answer": "240",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/567.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "1",
+      "pred_answer": "1",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/892.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "2",
+      "pred_answer": "Alternatively, maybe the function is not continuous, but still intersects every horizontal line. Let me think. For example, if $ a $ is very large, say $ a = 10 $, then for $ x < a $, the function is $ 10x + 20 $, which is a line with slope 10, and for $ x \\geq 10 $, it's a parabola $ 10x^2 $. So, for large $ a $, the parabola is going to be very steep, but the line is also going to be steep. However, for horizontal lines, say $ y = k $, the line $ y = k $ would intersect the line part of the function when $ k = 10x + 20 $, so $ x = (k - 20)/10 $, which is valid for $ x < a $. But if $ a $ is very large, then $ (k - 20)/10 $ is less than $ a $, so as long as $ k $ is such that $ (k - 20)/10 < a $, which is always true for $ k $ in some range. However, for the parabola part, $ y = 10x^2 $, so solving $ 10x^2 = k $, which gives $ x = \\sqrt{k/10} $, but this has to be greater than or equal to $ a $. So $ \\sqrt{k/10} \\geq a $, which implies $ k \\geq 10a^2 $. Therefore, for the parabola part, the horizontal line $ y = k $ would intersect the parabola only if $ k \\geq 10a^2 $. However, if $ k $ is less than $ 10a^2 $, then the parabola doesn't intersect it. Therefore, if we want the graph to intersect every horizontal line, then for every $ k $, there must be at least one intersection. Therefore, for the horizontal lines below $ 10a^2 $, there must be an intersection with the line part of the function. But if $ a $ is very large, then $ 10a^2 $ is very large, so for $ k $ less than that, the line part of the function would intersect it. However, for the horizontal lines above $ 10a^2 $, the parabola would intersect them. Wait, but if $ a $ is very large, then the line part of the function is $ 10x + 20 $, which for $ x < a $, so as $ x $ approaches $ a $ from the left, the line approaches $ 10a + 20 $. Therefore, the maximum value of the line part is approaching $ 10a + 20 $. Therefore, if $ a $ is very large, the line part can go up to $ 10a + 20 $, which is very large. Therefore, for horizontal lines above $ 10a + 20 $, the parabola part would intersect them? Wait, no. The parabola part is $ 10x^2 $, which for $ x \\geq a $, so as $ x $ increases, $ 10x^2 $ increases without bound. Therefore, for any horizontal line $ y = k $, if $ k $ is large enough, the parabola will intersect it. However, for horizontal lines between $ 10a^2 $ and $ 10a + 20 $, the parabola would intersect it once (since $ y = 10x^2 $ intersects $ y = k $ at $ x = \\sqrt{k/10} $, which is $ \\geq a $), and the line part would intersect it at $ x = (k - 20)/10 $, which is less than $ a $, as long as $ k - 20 < 10a $. Therefore, if $ k $ is between $ 10a^2 $ and $ 10a + 20 $, then both the parabola and the line part would intersect. However, if $ k $ is less than $ 10a^2 $, then the parabola doesn't intersect it, but the line part",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/357.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "21",
+      "pred_answer": "Check divisibility by",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1761.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "\\frac{3}{2}",
+      "pred_answer": "Alternatively, think of dividing 10 by 2/3. So, 10 divided by 2/3 is the same as 10 divided by 2 times 3. Wait, no. Wait, dividing by a fraction is multiplying by its reciprocal. So, 10 divided by (2/3) is 10 multiplied by 3/2. So, 10 times 3 is 30, divided by 2 is 15. So, that's 15. Therefore, the answer is 15. Therefore, the number he should multiply 10 by is 15? Wait, no. Wait, if you multiply 10 by 15, you get 150, but that's not the answer. Wait, but the answer is 15. So, if you multiply",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2023.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "1",
+      "pred_answer": "Therefore, I think the answer is",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/377.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "\\frac{448}{15625}",
+      "pred_answer": "Denominator: 625 * 125 = 78,125. Correct.",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/873.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "33",
+      "pred_answer": "33",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1646.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "80",
+      "pred_answer": "Looking at the Asym",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/34.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "-4",
+      "pred_answer": "-4",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/662.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "1 \\pm \\sqrt{19}",
+      "pred_answer": "To combine them, I need to find a common denominator. Let me denote the common denominator as 5*9*13*(y -",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/105.json",
+      "subject": "Prealgebra",
+      "level": 1,
+      "gt_answer": "\\text{east}",
+      "pred_answer": "east",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1924.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "2k+2",
+      "pred_answer": "2k + 2",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/1300.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\begin{pmatrix} -1/3 \\\\ 2/3 \\\\ 5/3 \\end{pmatrix}",
+      "pred_answer": "\\begin{pmatrix",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/183.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "145^\\circ",
+      "pred_answer": "First, the intercepted arc",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/582.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "850",
+      "pred_answer": "But in the expression for $x_k$, the roots are given for $k = 0$ to $9$. However, when $k = 0$, $\\theta_0 = 0$, so $x_0 = \\frac{e^{i0}}{1 + 13 e^{i0}} = \\frac{1}{1 +",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/431.json",
+      "subject": "Intermediate Algebra",
+      "level": 1,
+      "gt_answer": "(a+5)(b+2)",
+      "pred_answer": "(a + 5)(b + 2)",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/558.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "(3,4]",
+      "pred_answer": "Then, -x*(1 - λx + λx^2) = -x",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/362.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "40",
+      "pred_answer": "x² +",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1804.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "29",
+      "pred_answer": "Sorted",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/515.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "\\frac43",
+      "pred_answer": "\\dfrac{4",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/914.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "9",
+      "pred_answer": "9",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/894.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "2",
+      "pred_answer": "Coefficient of x²: (k - 1) = 1 (since the quadratic is x² - 1/k = 0, so coefficient is 1). Therefore, k - 1 = 1 => k = 2. Wait, but that seems too straightforward. However",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/44.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "120^\\circ",
+      "pred_answer": "Let me compute the original expression numerically and",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/345.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "504",
+      "pred_answer": "$ 2r - 1 = r",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/23957.json",
+      "subject": "Counting & Probability",
+      "level": 3,
+      "gt_answer": "210",
+      "pred_answer": "210",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2058.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "13",
+      "pred_answer": "Numerator: (1 + √2)(2 - √3) = 1*2 + 1*(-√3) + √2*2 + √2*(-√3) = 2 - √3 + 2√2 - √6. Denominator: 4 - 3 = 1. So yes, the expression simplifies to 2 - √3 +",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2593.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "8000",
+      "pred_answer": "But just to make sure, let me compute 26² - 24² - 10 first. 26² is 676, 24² is 576.",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1898.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "-5",
+      "pred_answer": "So 44C = -",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/1060.json",
+      "subject": "Counting & Probability",
+      "level": 2,
+      "gt_answer": "1260",
+      "pred_answer": "1260",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2157.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2251.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/232.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "81",
+      "pred_answer": "So total is",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1733.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "-9",
+      "pred_answer": "But is that allowed? The problem says we can't change addition or subtraction into multiplication, so adding parentheses is allowed. So, this seems valid. So, that would be -9. But is there a way",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/128.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "\\text{even}",
+      "pred_answer": "But wait, that seems to suggest that the entire composition is even. But let me check",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/505.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "6",
+      "pred_answer": "6",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1332.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "9",
+      "pred_answer": "9",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/283.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "8",
+      "pred_answer": "Alternatively, use the shoelace formula with coordinates in order D(0,3), B(0,0), E(4,",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/972.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "\\frac{11}{2}",
+      "pred_answer": "But let me think again. Is there a possibility that when solving the equations,",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2232.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "-3",
+      "pred_answer": "-3",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1063.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "1+274i",
+      "pred_answer": "Alternatively, maybe there's",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/847.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "4210_{5}",
+      "pred_answer": "**Final",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/661.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "36",
+      "pred_answer": "But maybe there's a different way. Let me think again. If she walks every third day, starting from day 1, then the days would be 1, 4, 7, 10, 13, 16, 19, 22, 25, 28. So that's 10 days. But that's if she walks on the first day. But the problem says \"every third day,\" which is ambiguous. If it's every third day starting from day 1, then the first day she walks is day 1, then day 4, etc. But that's not standard. Usually, \"every third day",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/1140.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "\\frac{3840}{289}",
+      "pred_answer": "Alternatively, since ABC is right-angled at C, and D is the foot of the altitude from C to AB, then the area of ACD is equal to (1/2)*AB*CD? Wait, no. Wait, the area of ABC is (1/2)*AC*BC = (1/2)*8*15 = 60. But",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/753.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "13",
+      "pred_answer": "So, the sum of the digits is 14. Therefore, 11213141 mod 9 is 14 mod 9. 14",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/246.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "8",
+      "pred_answer": "8",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1686.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1807.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "120",
+      "pred_answer": "120",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1126.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "16",
+      "pred_answer": "16",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1297.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "9",
+      "pred_answer": "9",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/2022.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "64",
+      "pred_answer": "From equation 1:",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1257.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "204_5",
+      "pred_answer": "Second step: 2 goes into 1 (base 5) 0 times. So write 0 above the next digit. Multiply 0 by 2, which is 0. Subtract",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/430.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "\\frac{1}{3}",
+      "pred_answer": "First, Alice picks a ball at random. The probability that she picks a particular color is 1/5. Then, Bob picks a ball from his bag, which now has 6 balls: the original five colors plus the one that Alice added. So, if Alice transferred a blue, then Bob's bag has two blues and one of each other color. Therefore, the probability that Bob picks a blue is 2/6 = 1/3. Therefore, the probability",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1151.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "1",
+      "pred_answer": "Simplify",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/156.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "13",
+      "pred_answer": "13",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/612.json",
+      "subject": "Number Theory",
+      "level": 1,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/159.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "28800",
+      "pred_answer": "Wait, why? Because when we have blocks, the number of circular arrangements isn't just dividing by the number of seats. Because the blocks themselves have internal arrangements. So, the formula (k-1)! *",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/477.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "3 \\sqrt{5}",
+      "pred_answer": "3\\sqrt{5",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/43.json",
+      "subject": "Precalculus",
+      "level": 1,
+      "gt_answer": "(15,-29)",
+      "pred_answer": "(15, -29)",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1408.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "-2",
+      "pred_answer": "Therefore, $ z^{85} +",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1519.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "\\frac{\\sqrt{3}}{3}",
+      "pred_answer": "\\dfrac{\\sqrt{3",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/966.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "16",
+      "pred_answer": "So now, we have x = √2 z and y = √2 z",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/988.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "11",
+      "pred_answer": "11",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/931.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "49",
+      "pred_answer": "73: 73/7≈10.428",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/964.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "1",
+      "pred_answer": "i=2: [3,",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/986.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "144",
+      "pred_answer": "Alternatively, maybe I can use coordinates. Let me think of the vectors as in 3D space with the third component being",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/172.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "8",
+      "pred_answer": "But wait, let me check again. Because in",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/230.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "\\frac{2}{21}",
+      "pred_answer": "Another thought: maybe there are lines with three points",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/880.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "2\\sqrt{113}",
+      "pred_answer": "The fly is on the opposite side wall, which is the left wall (since the right wall is the one the gecko is on). The opposite side wall to the right wall is the left wall, which is at y=0. The fly is one foot from the floor (z=0) and one foot from the front wall (x=12). So the fly is at (12, 0, 1). Wait, let me check. The fly is on the left wall (y=0), one foot from the floor (z=0) and one foot from the front wall (x=12). So the coordinates would be (12, 0, 1). Because the front wall is at x=12, so one foot from the front wall would be x=12 - 1 = 11? Wait, no. Wait, the front wall is at x=12. If the fly is one foot from the front wall, then its x-coordinate is 12 - 1 = 11? But the fly is on the left wall (y=0). So the coordinates would be (11, 0, 1). Wait, but the fly is on the left wall, which is y=0, and one foot from the floor (z=0) and one foot from the front wall (x=12). So if it's one foot from the front wall, then x = 12 - 1 = 11. So coordinates (11",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/803.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "\\frac{1}{4}",
+      "pred_answer": "But wait, let me check with coordinates. Let me take some points. For example, if x=0, then y can be from 0 to 4. If x=1, y can be from 0 to 3. If x=2, y from 0 to 2. If x=3, y from 0 to 1. If x=4, y from 0 to 0. So the area is the sum of these areas. Which is 4 + 3 + 2 + 1 + 0 = 10? Wait, no. Wait, the area is the integral from 0 to 4 of (4 - x) dx. Which is 8. But if I compute the sum of the areas for each x, it's the same as the integral. For example, when x=0, the length is 4, when x=1, it's 3, x=2, 2, x=3, 1, x=4, 0. So the sum is 4 + 3 + 2 + 1 + 0 = 10? Wait, but that's not the same as the integral. Wait, no, the integral is the area under the curve, which is a triangle. But if I think of the sum of the areas for each x, it's actually the same as the integral. Wait, but if I take the sum of the lengths for each x, that would be the area? Wait, no. Wait, the area is the integral of the function (4 - x) from 0 to 4. But if I think of it as a sum of rectangles, each with width dx and height (4 - x), then the area is the integral. But if I approximate it with Riemann sums, it would approach the integral. However, the exact value is 8. But when I add up 4 + 3 + 2 + 1 + 0, that's",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/117.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "30^\\circ",
+      "pred_answer": "162u³ +",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1410.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "\\frac65",
+      "pred_answer": "\\dfrac{6",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2570.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "2107",
+      "pred_answer": "2107",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/621.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "3.21",
+      "pred_answer": "I think that's solid. I don't",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/521.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "18",
+      "pred_answer": "18",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1255.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "6",
+      "pred_answer": "6",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1655.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "\\dfrac{17}{50}",
+      "pred_answer": "Numbers divisible by 3: floor(100/3) = 33. But numbers divisible by 2 and 3 are floor(100/6) = 16. So numbers divisible by 2 or 3 is floor(100/2) + floor(100/3) - floor(100/6) = 50 + 33 - 16 = 67. But that's numbers divisible by 2 or 3. But we need numbers divisible",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2517.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "-\\frac{35}{9}",
+      "pred_answer": "But let me check another possibility. Suppose we take $ a $ as -2 and $ b $ as 5. Then, $",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/697.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "-\\sqrt{3}",
+      "pred_answer": "First, tan(100°). Let me recall that tan(90°) is undefined, and tan(100°) is tan(90° + 10°) = -cot(10°). Cot(",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1356.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "\\frac{4}{9}",
+      "pred_answer": "\\dfrac{4",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1003.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "\\frac{270}7\\text{ degrees}",
+      "pred_answer": "But how does this square relate to the heptagon? The heptagon has sides AB, BC, CD, DE, EF, FA. Wait, but in the Asymptote code, the heptagon is drawn with points A, B, C, D, E, F, G? Wait, the Asymptote code draws for(int i=0; i <=7; ++i) { draw(dir(360*i/7+90)--dir(360*(i+1)/7+90)); }, so there are 8 sides? Wait, no, for i from 0 to 7, that's 8 sides? Wait, no, the loop is from i=0 to 7 inclusive, so 8 iterations. But the Asymptote code draws 8 sides? But a heptagon has 7 sides. Wait, maybe there's a typo? Or maybe the code is drawing 8 sides? Let me",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/478.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "65",
+      "pred_answer": "65",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/181.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "19",
+      "pred_answer": "Wait, actually, the number of squares of size s x s in an m x k grid of points is (m - s + 1)*(k - s + 1). Wait, no. Wait, if you have a grid of points with m rows and k columns, then the number of squares of size s x s (axis-aligned) is (m - s)*(k - s). Because to have a square of size s x s",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/802.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "12",
+      "pred_answer": "12",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/297.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "1736",
+      "pred_answer": "But first, let me check if there are any multiple solutions for the same x. However, since we have different x's, each x will give a unique y unless the equation y = x² -8 and y² = -5x +44 have multiple solutions for the same x. But since we have already solved for x, and each x gives a unique y (unless the equation is a double root, but in this case, the quartic equation is degree 4, so each x is distinct, so each x gives a unique y? Wait, not necessarily. Wait, for example, if x is such that y = x² -8 and y² = -5x +44, but maybe for some x, there are two different y's? Wait, but in the original problem, we are to find all solutions (x, y) for both equations. So each x gives a y, but maybe for some x, there are two different y's? Wait, but the equations are y = x² -8 and y² = -5x +44. So for each x, there is a unique y from the first equation, but the second equation may have two solutions for y? Wait, no. Wait, if you have y² = something, then y can be positive or negative square roots. But in the problem, we are to find all solutions (x, y) that satisfy both equations. So for each x, there may be two y's? Wait, but if we substitute y = x² -8 into the second equation, then we get a single equation in x, which we solved. But for each x, there is only one y from the first equation. However, the second equation is y² = -5x +44, so for each x, there are two possible y's: y = sqrt(-5x +44) and y = -sqrt(-5x +44). But since we have already substituted y = x² -8 into the second equation, so the solutions for x are such that y = x² -8 and y² = -5x +44. Therefore, for each x, there is a unique y from the first equation, but the second equation may have two y's. However, since we substituted y = x² -8 into the second equation, we have to check if that y satisfies the second equation. Therefore, each x that is a solution to the quartic equation will correspond to a y from the first equation, but we need to check if that y also satisfies the second equation. Wait, but we already did that",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1272.json",
+      "subject": "Prealgebra",
+      "level": 1,
+      "gt_answer": "\\frac{13}{15}",
+      "pred_answer": "\\dfrac{13",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/841.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "350",
+      "pred_answer": "350",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/686.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "4",
+      "pred_answer": "Wait, the divisors of 12 are 1, 2, 3, 4, 6, 12. But since $ d = k^2 - 4 \\geq 5 $, only 6 and 12 are possible. But in case",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/351.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/991.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "3",
+      "pred_answer": "Since 100 ≡ 1 mod 3, and",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/598.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": ".0000672",
+      "pred_answer": "First, compute 2^2 * 5^7. 2^2 is 4. 5^7 is 5*5*5*5*5*5*5. Let me compute that. 5^2 is 25, 5^3 is 125, 5^4 is 625, 5^5 is 3125, 5^6 is 15625, 5^7 is 78125. So,",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/65.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "30^\\circ",
+      "pred_answer": "But if R, Q, S are on the base BC, then they are tangent to BC. Since they have radius 1, the distance from their centers to BC is 1. If BC is the base, then the distance from the center to BC is 1. So if BC is horizontal, then the y-coordinate of the centers is 1. But in the Asymptote code, R is at (0,0), which is on BC (since BC is at y=-1). Wait, but if the center is at (0,0) and the circle is tangent to BC, which is at y=-1, then the distance from the center to BC is |0 - (-1",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1113.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "60",
+      "pred_answer": "60",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/659.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "5x - 7y + 11z + 4 = 0",
+      "pred_answer": "Third component: (-4)(6) - (5)(4) = -24 -20 = -44. Correct. So cross product is (-20, 28, -44). Then, multiplying by -1 gives (20, -28, 44). Then, using point P1:",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1908.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "3",
+      "pred_answer": "Therefore, the number",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1275.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "\\frac{\\sqrt{3}}{3}",
+      "pred_answer": "\\dfrac{\\sqrt{3",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1922.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "1251",
+      "pred_answer": "1251",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1082.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "23",
+      "pred_answer": "√2 + √3 is irrational, and 1/√2 + 1",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/183.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "(2,\\infty)",
+      "pred_answer": "But if I take y = 1, then the expression is 2 / sqrt(2) + 1 ≈ 1.414 + 1 ≈",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1214.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "1",
+      "pred_answer": "1",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/978.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "7",
+      "pred_answer": "Alternatively, maybe there's a case where 2²⁴ is a perfect power with a different base. For example, if k is not a",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2199.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "7",
+      "pred_answer": "7",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/733.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "6",
+      "pred_answer": "But let me check if x = 6 is indeed a solution. Let me",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/702.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "160",
+      "pred_answer": "Therefore, d = sqrt(12544). Let me compute that. 112² is 12544, since 100²=10000, 110²=12100, 112²= (110 + 2)^2 = 110²",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/51.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "\\frac{13}{18}",
+      "pred_answer": "Let me think again. The key is whether the problem considers the numbers as distinct or not. If they are choosing numbers with replacement, then the total number of possible outcomes is 6*6=36. If they are choosing without replacement, it's 6*5=30. But the problem says \"each choose a number at random from the first six primes.\" So, it's possible that they choose the same number. For",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/109.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "0",
+      "pred_answer": "0",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/221.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "30",
+      "pred_answer": "m_q = (1/2) * sqrt(2*(32)^2",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1422.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "4",
+      "pred_answer": "Therefore, all four possible rational roots are",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/2196.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{1}{4}",
+      "pred_answer": "But wait, let me check if there are other possibilities. For example, maybe when x^3 + y^3 = 0, but x + y = 0 is the only case? Wait, no, x^3 + y^3 = 0 implies x + y = 0 or x^2 - xy + y^2 = 0. But the second factor is always",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/591.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "24",
+      "pred_answer": "Alternatively, maybe there's a trick here. Since p(x) is a monic polynomial with roots 1, 2, 3, and r. Then, p(x) = (x - 1)(x - 2)(x -",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1937.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "1600",
+      "pred_answer": "1600",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/838.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "6",
+      "pred_answer": "Similarly, 8 (2^3*... but wait, 2^3 is 8, but 3*1=3 ≤8, so yes. So x=8. Then x³=8³=2^9*... but 10! has 2^8, so 2^9 is not allowed. Wait, hold on! Wait, if x is 8, which is 2^3, then x³ is 2^9. But 10! only has 2^8. Therefore, 2^9 is not a factor of 10!. Therefore, x=8 is not allowed. Wait, but according to my previous calculation, for prime 2, the exponent in x can be up to floor(8/3)=2. So 3a ≤8, so a can be 0,1,2. Therefore, x can have 2^0, 2^1, or 2^2. Therefore, x=2^2=4, which is allowed. But x=2^3=8 is not allowed. Therefore, x=8 is not allowed. So my previous calculation is correct. So the exponents for 2 in x are 0,1,2. Therefore",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/508.json",
+      "subject": "Counting & Probability",
+      "level": 3,
+      "gt_answer": "10,\\!080",
+      "pred_answer": "10080",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1907.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "17",
+      "pred_answer": "17",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/2086.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "40",
+      "pred_answer": "40",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/149.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "66",
+      "pred_answer": "13: 13 mod 6 is",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/291.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{2}{3}",
+      "pred_answer": "Similarly, the probability that Alice wins on the third trial is (1/2)^3 * (1/2) = 1/16? Wait, no. Wait, the probability that Alice wins",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1555.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "12",
+      "pred_answer": "The remainder",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1510.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "0",
+      "pred_answer": "Therefore, the problem reduces to maximizing the product of the absolute values of these six terms. So maybe I can think of this as maximizing |a + b| |a + c| |a + d| |b + c| |b + d| |c",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/263.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\begin{pmatrix} -2 \\\\ -14 \\\\ -7 \\end{pmatrix}",
+      "pred_answer": "Wait, but that seems too straightforward. But the problem is that the matrix A is not uniquely determined? Because if we have only two equations, there are infinitely many matrices A that satisfy the given conditions. However, if the third vector is a linear combination of the first two, then the result is determined regardless of the matrix A? Wait, no. Wait, if the third vector is a linear combination of the first two, then the image of the third vector under A is a linear combination of the images of the first two vectors under A. Therefore, if we can find the coefficients, then we can compute the result. But in this case, since we have the images of the first two vectors, we can compute the image of the third vector as a linear combination of those images. Therefore, even if the",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/541.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "\\left( \\frac{3}{2}, -13 \\right)",
+      "pred_answer": "\\left( \\dfrac{3",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/389.json",
+      "subject": "Counting & Probability",
+      "level": 2,
+      "gt_answer": "28",
+      "pred_answer": "28",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/1201.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "1",
+      "pred_answer": "What about numbers like 60*1=60, 60*2=120, which is beyond 100. So, only 60.",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/234.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "16",
+      "pred_answer": "16",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/378.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "10",
+      "pred_answer": "But wait, maybe the problem is that the Asymptote code is drawing the diagonals, but the shaded regions are the areas inside those triangles? So, the first triangle is the area between (0",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1555.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "5",
+      "pred_answer": "5",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2102.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "56",
+      "pred_answer": "56",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/102.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "2",
+      "pred_answer": "1/F1 + 1/F2 + ( -1/F3 + 1/F3 ) + ( -1/F4 + 1/F4 ) + ( -1/F5 + 1/F5 ) + ... + ( -1/F",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/765.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "110",
+      "pred_answer": "So,",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/907.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1436.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "6",
+      "pred_answer": "Another way to think about it: Let's find the value of 1 Drinket",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/417.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "11,\\! 111,\\! 111,\\! 100",
+      "pred_answer": "But wait, let me check if there is a smaller number with more digits but with fewer digits in total. Wait, no. Because 11 digits is the minimal number of digits. So, 11111111100 is the minimal. But let me check if there is a smaller number with more digits but with the same number of 1s. For example, maybe a number with 9 ones but arranged differently? But the number is 11111111100. If you have 9 ones and two zeros, the number is 11111111100. But maybe there is a smaller number with the same number of 1s but with some zeros in between? Wait, but the number has to be as small as possible. The smallest number with a certain number of 1s is the one with the 1s as left as possible. Wait, but the number must end with two zeros. So, the first part is the number with 9 ones, followed by two zeros. But if you have 9 ones, the minimal number is 11111111100. However, if you have 9 ones but with some zeros in between, but the total number of digits is less? Wait, no. Because the number of digits is fixed as 9 + 2 = 11. If you have fewer digits, you can't have",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/864.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "(-1,6)",
+      "pred_answer": "(-1, 6)",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/282.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "\\frac{1}{2}",
+      "pred_answer": "- In column 5-6, rows 0-1 (",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1961.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "\\frac{16}{27}",
+      "pred_answer": "But if the problem had said \"for each mile he walks, the amount of milk is reduced by 2/3,\" then that would be different. But the wording is \"there is 2/3 as much milk in the bucket as at the beginning of the mile.\" So, the amount at the beginning of the mile is the amount before he starts walking that mile.",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/89.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "900",
+      "pred_answer": "4 + e2 ≡ 0 mod",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/547.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "54",
+      "pred_answer": "Wait, the problem says BD = 4 BC. So BD is 4 times BC. But according to the vector calculation, if BD = 4 BC, then BD = 4 BC. But if BC is from B to C, then BD is from B to D. So if BD = 4 BC, then vector BD = 4 vector BC. Therefore, vector CD = vector BC + vector BD = vector BC + 4 vector BC = 5 vector BC. Therefore, CD = 5 BC. Therefore, BD = 4 BC, and CD = 5 BC. So that's correct. So D is located such that CD is 5 times BC. So if BC is from B to C, then D is located 5 times BC from C. So in the diagram, since BC is from B to C, then D is beyond C, such that CD is 5 times BC. Therefore, BD is BC + CD = BC + 5 BC = 6 BC. But the problem says BD =",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/183.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "14",
+      "pred_answer": "Divide numerator and denominator by 20,000,000. Let me think of it as 4321 / 20,000,000. Let me divide numerator and denominator by 4321. Wait, maybe not. Alternatively, 20,000,000 is 2 * 10^7. So",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/190.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "\\frac{9}{256}",
+      "pred_answer": "Then multiply by",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2159.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "11",
+      "pred_answer": "Second term is - (12 -2)*4*4 +1 = -10*16 +1 = -1",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/71.json",
+      "subject": "Counting & Probability",
+      "level": 3,
+      "gt_answer": "3",
+      "pred_answer": "So, in general, the number of ways is equal to the number",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/819.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\text{(C)}",
+      "pred_answer": "C",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1056.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "288 \\pi",
+      "pred_answer": "Let me check the expansion",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/2057.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "90",
+      "pred_answer": "90",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/986.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "\\frac{16}{5}",
+      "pred_answer": "Using Cauchy-Schwarz, (4.5)^2 ≤ 4*(3.75). Let's compute 4.5² = 20.25. 4*3.75 = 15. 20",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1578.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "10",
+      "pred_answer": "Add 8:",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1354.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{1997}{2}",
+      "pred_answer": "But in our case, we have $\\sum_{k=1}^{1997}",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/441.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "30^\\circ",
+      "pred_answer": "Given the cross product vector is (3, 2, 6). So the magnitude is sqrt(3² +",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1837.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "34",
+      "pred_answer": "34",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/153.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "\\frac 59",
+      "pred_answer": "\\dfrac{5",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/989.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "12",
+      "pred_answer": "Let me compute tan²x + cot²2x + cot",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/337.json",
+      "subject": "Intermediate Algebra",
+      "level": 1,
+      "gt_answer": "22",
+      "pred_answer": "So regardless of the method, I get x = 4, y = 6, z = 12. Therefore, their sum is 4 + 6 + 12 =",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/975.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "-4",
+      "pred_answer": "-4",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/229.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "16",
+      "pred_answer": "Shoelace",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/874.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "116",
+      "pred_answer": "Wait, but if PT is parallel to QR, then the angle between RT and PT is equal to the angle between RT and QR. But since RT is going from R to T, which is going up and to the left, and QR is going to the right. So the angle between RT and QR is 128°, which is the angle at R. Then, the angle between RT and PT would also be 128°, but that would mean that the angle at",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1143.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "17",
+      "pred_answer": "17",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2626.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "\\$32,\\!348",
+      "pred_answer": "24000 * 0.",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/254.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1251.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "8",
+      "pred_answer": "n - 3 < 1070 / 18",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1210.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "-13x+3",
+      "pred_answer": "-8",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1787.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "8",
+      "pred_answer": "But how does that relate to the total food? If the total food is enough for 18 people, then if they order 12 meals, each meal is 1.5 people",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1123.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "\\frac{10}{11}",
+      "pred_answer": "\\dfrac{10",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/920.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "\\begin{pmatrix} -1 & 0 \\\\ 0 & -1 \\end{pmatrix}",
+      "pred_answer": "Wait,",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1065.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "17",
+      "pred_answer": "But let me check if there are other possible solutions. Wait, the quadratic equation gave us t ≡ 4 and 17 mod 23. But 4 is even, so excluded. So the only solution is 17. But let me check if there are other possible t's that are odd in the range. For example, maybe t=1? Let me check t=1. Then t+2=3. Is 3 the inverse of 1 mod 23? Well, 1*3=3≡3 mod23≠1. So no. Similarly, t=3: t+2=5. 3*5=15≡15≠1. t=5: 5+2=7. 5*7=35≡35-23=12≡12≠1. t=7: 7+2=9. 7*9=63≡63-2*23=63-46=17≡17≠1. t=9: 9+2=11. 9*11=99. 99 divided by 23: 23*4=92, 99-92=7≡7≠1. t=11: 11+2=13. 11*13=143. 143-6*23=143-138=5≡5≠1. t=13: 13+2=15. 13*15=195. 195 divided by 23: 23*8=184, 195-184=11≡11≠1. t=15: 15+2=17. 15*17=255. 255 divided by 23: 23*11=253, 255-253=2≡2≠1. t=17: 17+2=19. 17*19=323≡1 mod23 as before. t=19: 19+2=21. 19*21=399. 399 divided by 23: 23*17=391, 399-39",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1934.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "13",
+      "pred_answer": "13",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/894.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "540",
+      "pred_answer": "Wait, for example, if the first car is left, second is straight, third",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2064.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "81",
+      "pred_answer": "Alternatively,",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1458.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "\\frac{1}{8}",
+      "pred_answer": "\\dfrac{1",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/1009.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "28",
+      "pred_answer": "Wait, let's take a smaller case. Suppose there are 2 types of cookies, say chocolate and oatmeal, and we want to select 2 cookies. If there are at least 2 of each type, then the number of assortments would be C(2 + 2 - 1, 2 - 1) = C(3, 1) = 3. Which are: 2 chocolate, 0 oatmeal; 1 chocolate, 1 oatmeal; 0 chocolate, 2 oatmeal. That's correct. So, in that case, the formula works. So, applying the same logic here, with three types, the answer is 28. Therefore, maybe the answer is 28. But why does the problem",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/452.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "\\text{(E)}",
+      "pred_answer": "Alternatively, maybe there's a way to see this as a hyperbola by looking at the equation in polar coordinates. For example, if we have $ r^2 \\cos 2\\theta = 4 $, then if we consider $ r^2 = \\frac{4}{\\cos 2\\theta} $, so $ r = \\sqrt{\\frac{4}{\\cos 2\\theta}} $. But this is",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1995.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "\\frac{8}{21}",
+      "pred_answer": "\\dfrac{8",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/473.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "864 \\mbox{ inches}^2",
+      "pred_answer": "864",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/694.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "16",
+      "pred_answer": "16",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/149.json",
+      "subject": "Intermediate Algebra",
+      "level": 1,
+      "gt_answer": "22",
+      "pred_answer": "22",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/580.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "120^\\circ",
+      "pred_answer": "But just to make sure, let me check if",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/347.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "76^\\circ",
+      "pred_answer": "But AB is the diameter, so AB = 2R. Also, in a right-angled triangle, AC = AB * sin(angle B). Wait, angle at B is 76°, so AC = AB * sin(76°). Wait, but according to the Law of Sines, AC / sin(angle B) =",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1317.json",
+      "subject": "Prealgebra",
+      "level": 1,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/483.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "15",
+      "pred_answer": "15",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/826.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "1\\frac{4}{5}",
+      "pred_answer": "Alternatively, maybe the Asymptote code is correct, but BE is not the distance between B and E, but something else? Wait, the problem says \"quadrilateral BEFH is a rectangle. If BE = 5, how many units is BH?\" So BE is a side of the rectangle. So in the Asymptote code, BE is from (3,0) to (9,3), which is sqrt( (9-3)^2 + (3",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/524.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "4005",
+      "pred_answer": "4005",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1742.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "\\dfrac{33}{100}",
+      "pred_answer": "\\dfrac{33",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/226.json",
+      "subject": "Geometry",
+      "level": 1,
+      "gt_answer": "180^\\circ",
+      "pred_answer": "In any quadrilateral, the sum of the interior angles is 360 degrees. If two of the angles are right angles (90 degrees each),",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/466.json",
+      "subject": "Number Theory",
+      "level": 1,
+      "gt_answer": "1",
+      "pred_answer": "1",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/913.json",
+      "subject": "Counting & Probability",
+      "level": 3,
+      "gt_answer": "6",
+      "pred_answer": "6",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2551.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "10",
+      "pred_answer": "10",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/634.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "333",
+      "pred_answer": "Alternatively, maybe I can check with another approach. Let me try to compute 997 * 333 mod",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/533.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "1030",
+      "pred_answer": "9999 divided by 1331 is 7 with remainder 682 (since 1331*7=9317, 9999-9317=68",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/993.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "1250",
+      "pred_answer": "1250",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/686.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "18+2\\pi",
+      "pred_answer": "Added: 4*(length of the sides) * 1? No, the sides are extended by 1 unit each, but the corners are replaced by quarter-circles. So each side contributes a straight segment of length 2 + 2*1 = 4? Wait, no. If you have a square with side length 2, and you expand it by 1 unit, the new side length is 2 + 2*1 = 4? Wait, no. If you expand the square by 1 unit in all directions, the distance from the original square to the new square is 1 unit. So the new square would have side length 2 + 2*1 = 4. Therefore, the perimeter would be 4*4 = 16. However, the corners are rounded, so instead of 90-degree angles, they are replaced by quarter-circles. Therefore, the perimeter would be 4*4 - 4*(1/4)*2π*1 + 4*(1/4)*2π*1? Wait, no",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/346.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "7",
+      "pred_answer": "7",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1282.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "11",
+      "pred_answer": "But let me check for k=10: √x = 120 - 100 = 20, so x = 400.",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1834.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "\\sqrt{53}",
+      "pred_answer": "\\sqrt{53",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/691.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "255",
+      "pred_answer": "255",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1512.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "7\\pi",
+      "pred_answer": "But let me check if there's another way. Maybe the regions are different? For example, maybe X is the area of the large circle, Y is the area between 6 and 7, and Z is the area between 4 and 6? But then the labels would be different. But the Asymptote code labels X at (2,0), which is near",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1287.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "8",
+      "pred_answer": "8",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/260.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "36^\\circ",
+      "pred_answer": "Looking at the Asymptote code, point A is at (-42.4, 30.8), which",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1184.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "129",
+      "pred_answer": "129",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1787.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "1",
+      "pred_answer": "1",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/768.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "3 \\pm 2 \\sqrt{2}",
+      "pred_answer": "Earlier, I thought that arccot(1/x",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1411.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "440",
+      "pred_answer": "But since the roots are integers, this cubic must have integer roots. Therefore, the cubic must factor into (x - r1)(x - r2)(x - r3) =",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/960.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{17}{21}",
+      "pred_answer": "Similarly, 5/4 multiplied by -1 / 5^{a",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/631.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "36",
+      "pred_answer": "Wait, so according to this, t can be 3 seconds. Let me check. If t",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1172.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "7",
+      "pred_answer": "31² = 961",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1300.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "16",
+      "pred_answer": "But wait, let me check with another approach. Maybe using the AM-GM inequality.",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/634.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/25149.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "63",
+      "pred_answer": "So total boundary points: 11 + 11 + 9 + 9 = 30. But wait, but this counts the corners twice. Each corner is shared by two sides. So, the total number of boundary points is 30 - 4 = 26? Wait, no. Wait, when you add up the four sides, each corner is counted",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/90.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "898",
+      "pred_answer": "Alternatively, maybe there's a pattern in the sequence. Since the recurrence is linear, maybe the sequence has periodicity? Let me check the first few terms",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2486.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "\\left(\\frac{3}{5},\\frac{8}{3}\\right]",
+      "pred_answer": "\\left( \\dfrac{3",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/488.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "58",
+      "pred_answer": "n = (131 - 3)/3 =",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1201.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "11",
+      "pred_answer": "Again, quadratic in a: a^2 - 4i a + (7",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/754.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "\\text{(B)}",
+      "pred_answer": "Still B is smaller. So, in all these cases, B is the smallest base. Therefore, the equation with the smallest base is B, so the equation with the largest x is B. But wait, let me check if there's any case where another equation has a smaller base. For example, if r is such that 1 + r/10 is larger than 1 + sqrt(r). Wait, but for r between 0 and 3, is 1 + r/10 always less than",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1172.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "103",
+      "pred_answer": "103",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/881.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "\\begin{pmatrix} -18 \\\\ -49 \\\\ 96 \\end{pmatrix}",
+      "pred_answer": "\\begin{pmatrix",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/1097.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "63",
+      "pred_answer": "But in the first approach, I considered x from -4 to 4 inclusive and y from -3 to 3",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/339.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "12",
+      "pred_answer": "Therefore, the answer should be 12. But I need to check if there's any other constraints. For example, if you have four circles, can they intersect in more than 12 points? For example, if some circles intersect in more than two points? But no, two circles can intersect in at most two points. So, no, each pair can contribute at most two points. Therefore, the maximum is",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1044.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "5.4 \\text{ cents}",
+      "pred_answer": "So the labels for the 50s are at (7.5, 4.5), which is the middle of the first vertical line (x=0 to x=6). Then, the numbers for the 50s are at (7.5, 3.5), (7.5, 2.5), etc. So each of these numbers is in the same column, but different y-values. Wait, but the y-axis is from 0 to 5. So each",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/465.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "5",
+      "pred_answer": "Compute 1000 divided by 271: 271*3=81",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/965.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "28",
+      "pred_answer": "h/q = |(h/q -",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/446.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "9",
+      "pred_answer": "First term: $(2x +",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2257.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "\\frac9{19}",
+      "pred_answer": "\\dfrac{9",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1544.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "6",
+      "pred_answer": "So, in the case of the quartic equation, we have four roots. But if the quadratic equation has two roots, then perhaps the two roots are part of this cycle. For example, if the quadratic equation has roots",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/695.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "(-\\infty, 0]",
+      "pred_answer": "But wait, let me think again. If the function is continuous on (0°, 180°), then the range is (-∞, 0]. But since sin",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/711.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "1+2\\sqrt{3}",
+      "pred_answer": "Let me take a = A(0,0,0) on AB, and b = C(1, √3, 0) on CD. Then vector a - b is (-1, √3, 0). The direction",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/203.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "14",
+      "pred_answer": "Alternatively, maybe take 1, 2",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1842.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "49",
+      "pred_answer": "49",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/911.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "3",
+      "pred_answer": "Alternatively, since modulo 9 is the same as the sum of digits mod 9, maybe",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1714.json",
+      "subject": "Intermediate Algebra",
+      "level": 1,
+      "gt_answer": "(5,\\infty)",
+      "pred_answer": "(5, \\infty)",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1423.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "12\\pi",
+      "pred_answer": "12\\pi",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/1108.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "(2,4)",
+      "pred_answer": "(2, 4)",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/791.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "41",
+      "pred_answer": "Therefore, the answer is",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/276.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "12",
+      "pred_answer": "12",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/2152.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "0",
+      "pred_answer": "So p(x) = Term1 + Term2 + Term3 = [(x - 2)(x - 3)/2] - (x - 1)(x",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2735.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "\\frac{11+9a}{20}",
+      "pred_answer": "\\dfrac{9a + 11",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/425.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "-128",
+      "pred_answer": "-128",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/947.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "-\\frac{24}{25}",
+      "pred_answer": "cos(theta) = (PR · PS) / (|PR",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/954.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "10",
+      "pred_answer": "10",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1936.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "-1",
+      "pred_answer": "-1",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/870.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "\\frac{1}{3}",
+      "pred_answer": "Wait, but AB is a chord from A (0) to B (a). The arc from A to B is from",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/465.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "120",
+      "pred_answer": "But if the shaded area is 5π/3, then 5π/3 divided by 4π is 5/",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/73.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/742.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "\\frac{9}{100}",
+      "pred_answer": "But in my calculation, I had sin A cos B = 0.4 * sqrt(3",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/117.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "15",
+      "pred_answer": "3m = 7 + 3",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2176.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "3",
+      "pred_answer": "Wait, maybe there's a different approach. Let me think. Maybe the problem is considering $ x $ as a real number, and the expression $ \\left(-\\frac{5}{8}\\right)^x $ is real. So, for $ x $ being a real number, $ \\left(-\\frac{5}{8}\\right)^x $ is real if and only if $ x $ is a rational number with an odd denominator. But since $ x $ is in $ [0, \\infty) $, which includes all real numbers, but the problem says that $",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1973.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/216.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "1940",
+      "pred_answer": "1940",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/509.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{13}{6}",
+      "pred_answer": "√845 / 9 = √(",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/190.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "2",
+      "pred_answer": "Therefore, denominator is",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/776.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "3",
+      "pred_answer": "Wait, let me think again. If I have $ x = \\sqrt[3]{2} - 1 \\approx 0.2",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1457.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "-120",
+      "pred_answer": "-120",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/483.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "3",
+      "pred_answer": "F(42) = F(41) + F(40) = 1 + 3 =",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2592.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "26000",
+      "pred_answer": "26000",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1730.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "6",
+      "pred_answer": "6",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/368.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "4343_6",
+      "pred_answer": "4343",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1566.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "2k",
+      "pred_answer": "But let me check another example to be sure. Let me take a parabola with vertex (2, 5). Let me choose a specific a. Let me take a = 1. Then the original equation is y = (x - 2)^2 + 5 = x² - 4x + 4 + 5 = x² - 4x + 9. Therefore, a = 1, b = -4, c = 9. The vertex is (2, 5). Now, reflecting over y = 5. The reflected equation would be y = -1 x² - (-4)x - 9 + 2*5 = -x² + 4x - 9 + 10 = -x² + 4x + 1. Therefore, the reflected equation is y = -x² + 4x + 1. Therefore, coefficients are d = -1, e = 4, f = 1. So the sum a + b + c + d + e + f is 1 + (-4) + 9 + (-1) + 4 + 1 = 1 -4 +9 -1 +4 +1 = (1 -4) + (9 -1) + (4 +1) = (-3) + 8 + 5 =",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/801.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "55^\\circ",
+      "pred_answer": "Wait, maybe I need to be careful here. The angle between b and a - b is 84°, which is the angle between vectors b and a - b. Similarly, the angle between a and b is 29°, which is the angle between vectors a and b. So, if I consider the triangle formed by vectors a, b",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/858.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "-2",
+      "pred_answer": "But let me check if there's a way",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1238.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/737.json",
+      "subject": "Counting & Probability",
+      "level": 2,
+      "gt_answer": "58,500",
+      "pred_answer": "58500",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1572.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "5",
+      "pred_answer": "5",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1529.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "1",
+      "pred_answer": "1",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1338.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "66",
+      "pred_answer": "The",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1547.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "6r^2-4r-24",
+      "pred_answer": "6r^2 - 4r - 24",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/116.json",
+      "subject": "Counting & Probability",
+      "level": 2,
+      "gt_answer": "4495",
+      "pred_answer": "The 6 in the numerator and denominator cancel out, leaving 3",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/238.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "10080",
+      "pred_answer": "But let me check with another approach. Suppose we fix one person's position to eliminate rotational symmetry. Let's say we fix person A at a specific seat. Then, the remaining 7 people can be arranged in 7! ways. But if we don",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/686.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "4",
+      "pred_answer": "18^5 = 104,976*18. Let me compute 104,976*",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/826.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\frac{1}{16}",
+      "pred_answer": "And -cos(π/15)cos",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1281.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "11 \\sqrt{5} + 11",
+      "pred_answer": "First, note that 6α = 3*(2α). So, cos(6α) = cos(",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/1014.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "480",
+      "pred_answer": "480",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/529.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "81",
+      "pred_answer": "81",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1166.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "100",
+      "pred_answer": "To find the minimum, take derivative f’(u) and set to zero",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1078.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "(-\\sqrt{3}, \\sqrt{3})",
+      "pred_answer": "Wait, but when I said x ∈ [-√3, √3), that would be if x² ∈ [0, 3). But x² ∈ [0, 3) is equivalent to x ∈ [-√3, √3). Because if x is in [-√3, √3), then x² is in [0, 3). But if x is in [-√3, √3), then x² is in [0",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1353.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/860.json",
+      "subject": "Intermediate Algebra",
+      "level": 2,
+      "gt_answer": "\\text{ellipse}",
+      "pred_answer": "Then, moving 9 to the right",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1407.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "6",
+      "pred_answer": "6",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/96.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\frac{7}{4}",
+      "pred_answer": "So solving for k from the first equation: k = -7/16. Then b = (-16)*(-7/16) = 7. So direction vector is (-7, 7). But the direction vector (16, -16) is equivalent to",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1405.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "16 \\sqrt{3}",
+      "pred_answer": "BC^",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/14.json",
+      "subject": "Counting & Probability",
+      "level": 1,
+      "gt_answer": "\\frac14",
+      "pred_answer": "Therefore, I think the answer is 1/4. So, the probability is 1/4, which is 0.",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/251.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/690.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "(1,-16,-4,43)",
+      "pred_answer": "Another point: (0,0). Reflecting over (4,1) gives (8, 2). Plug into equation: 8² + 2² -16*8 -4*2 +43 = 64 +4 -128 -8 +43 = 68 -128 -8 +43 = (68 +43) - (128 +8) = 111 - 136 = -25? Wait, that's not zero. Wait, that's a problem. Wait, hold on. Wait, (0,0) is on the original circle. Its reflection is (8,2).",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/820.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "8",
+      "pred_answer": "But wait, but let me think again. If m and n are coprime and their product is 210^2, then each m is a divisor of 210^2, and n is 210^2 / m. Since m and n are coprime, m must be a product of some subset of the prime factors of 210^2, and n is the product of the complementary subset.",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/109.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "4",
+      "pred_answer": "What are the first two terms of the next block?",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1199.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "1",
+      "pred_answer": "1",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/106.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "31",
+      "pred_answer": "31",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1187.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "21",
+      "pred_answer": "- \"5 cm\" at (21,4.5), NE: so that's the left side? Wait, the left side is from (0,0) to (0,9). The label \"5 cm\" is at (21,4.5), which is on the bottom base? Wait, no. The coordinates (21,4.5) is on the bottom base? The bottom base is from (0,0) to (27,0). So (21,4.5) is somewhere on the left side? Wait, no. The coordinates (21,4.5) is in the middle of the trapezoid. Wait, maybe the label \"5 cm\" is on the left side? The Asymptote code says label(\"5 cm\",(21,4.5),NE); which is to the northeast of (21,4.5). So that would be near the top of the trapezoid. Wait, the trapezoid has a vertical side from (0,0) to (0,9). The label \"5 cm\" is at (21,4.5), which is on the right side? Wait, the right side is from (27,0) to (15,9). The midpoint of the right side would be at ((27+15)/2, (0+9)/2) = (21, 4.5). So that's the midpoint of the right side. So the label \"5 cm\" is at the midpoint of the right side, which is 5 cm? Wait, but the right side is from (27,0) to (15,9). The length of that side can be calculated. Let me compute the distance between (27,0) and (15,9). The difference in x is 12, difference in y is 9. So the length is sqrt(12² + 9²) = sqrt(144 + 81) = sqrt(225) = 15 cm. So the midpoint is at 7.5 cm from each end. But the label says \"5 cm\" at (21,4.5). Wait, but the length of the right side is 15 cm, so the midpoint is 7.5 cm from each end. But the label is at (21,4.5), which is 21 cm from the left, which is 21 cm. Wait, the right side is from (27,0)",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/1289.json",
+      "subject": "Precalculus",
+      "level": 1,
+      "gt_answer": "-41",
+      "pred_answer": "-41",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/955.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "17",
+      "pred_answer": "The derivative is 16x - 8. Setting to zero: 16x - 8 = 0 => x = 8/16 = 1/2. So the critical point is at x=1/",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/846.json",
+      "subject": "Geometry",
+      "level": 2,
+      "gt_answer": "90^\\circ",
+      "pred_answer": "First, BD: distance from B(0,0) to D(10,0) is 10 units. Then CD: distance from C(20,0) to D(10,0) is 10 units. So BD = CD = 10. Then AD: distance from A(8.2635, 9.8481) to D(10,0). Let me calculate that. The x-coordinate difference is 10 - 8.2635 = 1.7365, and y-coordinate difference is 0 - 9.8481 = -9.8481. So the distance is sqrt( (1.7365)^2 + (9.8481)^2 ). Let me compute that. 1.7365 squared is approximately 3, and 9.8481 squared is approximately 96.99. So total is about 3 + 96.99 = 99.99, so sqrt(99.99) ≈ 9.999, which is approximately 10. So, AD ≈ 10. Therefore, AD = BD = CD ≈ 10. So, that checks out. Therefore, in this coordinate system, D is the midpoint of BC, but AD is equal to BD. So, in this case, triangle ABD is isosceles with AD = BD, and triangle ACD is isosceles with AD = CD. Therefore, point D is such that it's the midpoint of BC and also lies on the perpendicular bisector of AB? Wait, but if D is the midpoint of BC, then the perpendicular bisector of BC is the line x = 10, which is the line through D. But if AD is equal to BD, then point A must lie somewhere such that it's equidistant from B and D. Since D is the midpoint of BC, then the set of points equidistant from B and D is the perpendicular bisector of BD. But BD is a segment from (0,",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2264.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "1+2i",
+      "pred_answer": "1 + 2i",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1303.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/427.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "25",
+      "pred_answer": "But just to be thorough, let me check if there are any other prime factors. For example, is 1092 divisible by 5? 1092 ends with 2, so no. Divisible by 11? Let me check. 1 - 0 + 9 - 2 = 8, which is not divisible by 11. Divisible by 13? Well, 13 is already a factor. Divisible by 17? Let me check 1092 / 17. 17*64 = 1088, so 1092 - 1088 = 4, so no. Divisible by 19?",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/538.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "(8,-2)",
+      "pred_answer": "(8, -2)",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1185.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "6",
+      "pred_answer": "So, now we need to compute 4^(24^(24^2",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1743.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1865.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "12",
+      "pred_answer": "Compute 1.35 *",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1992.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "(0,9) \\cup (9,36)",
+      "pred_answer": "Now, x = 9. The numerator is |81 - 81| = 0. So,",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/188.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "\\frac{1}{2}",
+      "pred_answer": "- The second inequality is y ≥ x - 1. Since x is between 2 and 3",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1111.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{20000}{\\pi}",
+      "pred_answer": "First, the total length of the track is 2L + πW = 400. Then, area A = L*W. Expressing L in terms of W: L = (400",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/101.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "x \\in [-2,7]",
+      "pred_answer": "[-2, 7]",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1298.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "15x - 80",
+      "pred_answer": "15x - 80",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/2066.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "22",
+      "pred_answer": "1/1.32 is approximately 0.",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/170.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "11",
+      "pred_answer": "The number",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/849.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "18",
+      "pred_answer": "18",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1031.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{11}{2}",
+      "pred_answer": "\\dfrac{11",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/795.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "\\frac{\\sqrt{21}}{5}",
+      "pred_answer": "Therefore, sin T = sqrt(21)/5.",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/853.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "12",
+      "pred_answer": "Alternatively, maybe I can use",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2277.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "0",
+      "pred_answer": "Wait, let me graph the function mentally. For x ≤ 3, f(x) = 3 - x, which is a line decreasing from 3 to -infty as x goes from -infty to 3. For x > 3, f(x) = -x³ + 2x² + 3x. Let me think about the behavior as x approaches infinity. The cubic",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/902.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "\\sqrt{66}",
+      "pred_answer": "Second term: x² + 2x + 1 + y²",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/518.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "\\frac 34",
+      "pred_answer": "\\dfrac{3",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1791.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "-\\frac{3}{8}",
+      "pred_answer": "So combining first and second terms: - ( (4x + 3)^2 ) / 4 + ( (4x + 3)^2 ) / 2 = ( (4",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/114.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "4",
+      "pred_answer": "First, 8 squared is 64. Cube root of 64 is 4. Multiply by 16: 64. Then, cube root of",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/631.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "2",
+      "pred_answer": "Looking at the Asymptote code, there",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/977.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "23",
+      "pred_answer": "23",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1991.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "\\text{Navin}",
+      "pred_answer": "But let me check my calculations again to make sure I didn't make",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1784.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "326.5",
+      "pred_answer": "326.5",
+      "correct": true
+    },
+    {
+      "id": "test/geometry/817.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "\\frac{14}{3}",
+      "pred_answer": "Now, suppose there is a semicircle tangent to both AQ (the x-axis) and BQ (the y-axis). Since it's a semicircle, it must be drawn on one side of the angle. If it's tangent to both axes, then its center is at (r, r), where r is the radius. The semicircle would be either the upper half or the lower half. But since it's inside the big circle, it must be the upper half, so the semicircle is the one with center (r, r) and radius r, lying above the x-axis and y-axis. However, this semicircle would also have to be inside the big circle. The distance from Q to the center is sqrt(r² + r²) = r√2. The radius of the big circle is 14, so the semicircle must be entirely inside the big circle. Therefore, the distance from Q to the center plus the radius of the semicircle must be less than or equal to 14. Wait, but the semicircle is tangent to the axes, so the distance from Q to the center is r√2, and the radius of the semicircle is r. So",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1806.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{13}{4}",
+      "pred_answer": "Let me first handle Case 1: |x| ≤ √3/2. So x ∈ [-√3/2, √3/2]. Since the function is even (because of the absolute values), we can consider x ≥ 0 and double the result, but maybe it's easier to just consider x ∈ [0, √3/2] and then multiply by 2? Wait, no, because the function is 2|x| + 3 - 4x². Since x is in [-√3/2, √3/2], but for x ≥ 0, it's 2x + 3 - 4x². For x ≤ 0, it's -2x + 3 - 4x². But since the function is even, the maximum on [-√3/2, √3/2] is the same as the maximum on [0, √3/2]. So let's focus on x",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1291.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "1 - 12i",
+      "pred_answer": "But since it's clockwise, θ is -π/2",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/928.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "3",
+      "pred_answer": "In base 7: digits are 1, 5, 5,",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/761.json",
+      "subject": "Counting & Probability",
+      "level": 1,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1572.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "60",
+      "pred_answer": "60",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/132.json",
+      "subject": "Number Theory",
+      "level": 1,
+      "gt_answer": "0",
+      "pred_answer": "For example, 12*160=1920. 1920 + 12=1932. 1932 + 12=1944. 1944 + 12=1956. 1956 + 12=1968. 1968 + 12=1980. 1980 + 12=1992. 1992 + 12=2004. So that's 12 added 16 times to 1920. Wait, 1920 + 12*16=1920+192=2112? Wait, no. Wait, 1920 + 12*16. Wait, 12*16 is 192. So 1920 + 192=2112. But 2004 is less than 2112. So that",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1960.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "9",
+      "pred_answer": "Earlier, I thought f^{-1}(f(x)) was 2(x + 1)/(x + 3), but actually, if f^{-1}(y) = 2/y",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/398.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "\\begin{pmatrix} 1/5 \\\\ -18/5 \\end{pmatrix}",
+      "pred_answer": "$ R = \\begin{pmatrix} \\frac{1 - m^2}{1 + m^2} & \\frac{2m}{1 + m^2} \\\\ \\frac{2m}{1 + m^2} & \\frac{",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1797.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "2 \\sqrt{5}",
+      "pred_answer": "Wait, but the hyperbola passes through the point (4,7). Let me check if that point is on the hyperbola. Wait, if the center is (5,7), then the hyperbola is centered at (5,7). So the point (4,7) is on the hyperbola? Let me check. If we plug x = 4, y = 7 into the equation. Let me suppose the hyperbola is horizontal. Then ((4 - 5)^2)/a^2 - ((7 - 7)^2)/b^2 = 1 => (1)/a^2 - 0 = 1 => 1/a^2 = 1 => a^2 = 1. So a = 1. Then, since b = 2a, b = 2. So the equation would be ((x - 5)^2)/1 - ((y - 7)^2)/4 = 1. Then, plugging in (4,7): ((-1)^2)/1 - 0 = 1, which is 1 - 0 = 1. So that works. So (4,",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/65.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "6",
+      "pred_answer": "6",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1227.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "60",
+      "pred_answer": "60",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/2146.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "406",
+      "pred_answer": "Wait, let me check again. If P(x) is equal to the lower bound plus k(x - 1)^2, then for the upper bound to be satisfied, we need that P(x) ≤ upper bound. But if k = 1, then P(x) = lower bound + (x - 1)^2, which is equal to lower bound + (x - 1)^2. But the upper bound is lower bound + (x - 1)^",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2680.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "5r^5",
+      "pred_answer": "5r^5",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2391.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "10",
+      "pred_answer": "10",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/769.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "9",
+      "pred_answer": "34 divided by 10 is 3 with remainder 4, so 3^34 ≡ 3^4 mod 11. Similarly, 38 divided by 10 is 3 with remainder 8, so 3^38 ≡ 3^8 mod 11. Then 3^4 + 3^8 ≡ 4 + 5 = 9 mod",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/681.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\frac{1}{8}",
+      "pred_answer": "So, the solutions are x = 1,",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/776.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "-2",
+      "pred_answer": "But just to make sure, let me think if there's another way someone might approach this problem. For example, if someone thought that the sum of coefficients of g(x) is the same as the sum of coefficients of f(x), but that's not the case here. Because g(x) is f(x - 1), which is a shifted version of f(x",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1796.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "2\\sqrt{5}",
+      "pred_answer": "2\\sqrt{5",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/145.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "\\begin{pmatrix} -7 \\\\ 16 \\\\ 5 \\end{pmatrix}",
+      "pred_answer": "But let me check if that's correct. Alternatively",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/625.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\begin{pmatrix} 16/49 \\\\ 48/49 \\\\ 24/49 \\end{pmatrix}",
+      "pred_answer": "Wait, let me check the problem again. The original problem is written as: \"Find the projection of a onto b = (2, 6, 3) if a · b = 8.\" So they have given vector b and the dot product. If they want the vector projection, then the answer is (16/49, 48/49",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1202.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "27",
+      "pred_answer": "But first, let me check if the original equation is satisfied by the roots of this cubic. Let me take an example. Let me suppose that x is a root of 12x",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/2015.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\{1\\pm\\sqrt{5},-2\\}",
+      "pred_answer": "Let me try (b, d) = (1, 2). Then equation 4 is satisfied. Then equation 3: a (2 - 1) + 2*1 = 0 => a(1) + 2 = 0 => a = -2. Then c = 2 - a = 2 - (-2) = 4. Then equation 2: ac + b + d = (-2)(4) + 1 + 2 = -",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1002.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "1440",
+      "pred_answer": "But wait, is there a larger number less than 2010? Let me check 2010 - 1001 = 1009. So 1009 is 1001 + 1009? Wait, no. Wait, 2010 - 1001 = 1009, but 1009 is less than 1001? No, 1009 is greater than 1001. Wait, 1001 is 1001, so 1009 is 1009. So if we take N = 201",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1339.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "600",
+      "pred_answer": "600",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/1133.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "3R^2",
+      "pred_answer": "Take an equilateral triangle where a = b = c. Then, centroid, circumcenter, orthocenter all coincide. So GO = 0, so GO² =",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/843.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "6\\sqrt{2}",
+      "pred_answer": "6\\sqrt{2",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2743.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "29",
+      "pred_answer": "29",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/121.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "64",
+      "pred_answer": "\\left( \\frac{1^2}{a} + \\frac{1^2}{b} + \\frac{2^2}{c} + \\frac{4^2}{d",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1014.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "50",
+      "pred_answer": "Earlier, when I found $ a = \\sqrt{5} $ and $ b = 5^{1/4} $, then $ a^4 = (\\sqrt{5})^4 = 25",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/2019.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "4.5",
+      "pred_answer": "4.5",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/499.json",
+      "subject": "Precalculus",
+      "level": 4,
+      "gt_answer": "\\left[ \\frac{\\pi^2}{8}, \\frac{5 \\pi^2}{4} \\right]",
+      "pred_answer": "So, the function f",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1462.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "331",
+      "pred_answer": "Hmm, this seems complicated. Let me see if I",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/410.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": ".35625",
+      "pred_answer": "0.35625",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1640.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "32",
+      "pred_answer": "2*(a²)/(",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2043.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "(-\\infty, 2) \\cup (3, \\infty)",
+      "pred_answer": "(-\\infty, 2) \\cup (3, \\infty)",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/10.json",
+      "subject": "Counting & Probability",
+      "level": 4,
+      "gt_answer": "4",
+      "pred_answer": "4",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1553.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "3",
+      "pred_answer": "3",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/255.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "4",
+      "pred_answer": "17.125 * 0.008. Multiply 17.125 by 8 first, then divide by",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/199.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1",
+      "pred_answer": "First, $ x \\times (x^8 + x^7 + x",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2080.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "14",
+      "pred_answer": "14",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/2037.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "550",
+      "pred_answer": "550",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/1343.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "256",
+      "pred_answer": "Fourth application: 2^16",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/668.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "45",
+      "pred_answer": "45",
+      "correct": true
+    },
+    {
+      "id": "test/counting_and_probability/731.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "\\frac{1}{2}",
+      "pred_answer": "Wait,",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1779.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "15",
+      "pred_answer": "Point A is (-1,1), B is (2,4), C is (-1,-1), D is (2,-4). So connecting A to B to C to D to A. That would make a quadrilateral. But is this a convex quadrilateral? Let me check",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2430.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "8",
+      "pred_answer": "8",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/996.json",
+      "subject": "Prealgebra",
+      "level": 1,
+      "gt_answer": "9",
+      "pred_answer": "9",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/1000.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "44",
+      "pred_answer": "44",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2789.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "47",
+      "pred_answer": "47",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/13.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "64",
+      "pred_answer": "Therefore, the solutions are u=39 +50m, where m is integer.",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/459.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "\\frac{639}{40}",
+      "pred_answer": "Original problem:",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1814.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "143",
+      "pred_answer": "143",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2476.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "10",
+      "pred_answer": "10",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/323.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "y = 2x + 3",
+      "pred_answer": "Another point: take x = 1. Original point is (1, 3). Applying M: (2*1 -1, -11*1 -2) = (1, -13). Check if (1, -13) is on the",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/190.json",
+      "subject": "Counting & Probability",
+      "level": 2,
+      "gt_answer": "6",
+      "pred_answer": "6",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1102.json",
+      "subject": "Intermediate Algebra",
+      "level": 1,
+      "gt_answer": "-2,1",
+      "pred_answer": "-2",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/342.json",
+      "subject": "Number Theory",
+      "level": 1,
+      "gt_answer": "0",
+      "pred_answer": "0",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/805.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "41",
+      "pred_answer": "Wait, maybe the problem is that Betty couldn't divide the students into groups of equal size, and Wilma couldn't divide the students into groups of equal size when she and Betty were both present. But if they are both present, that would be the same number of students. So, maybe the problem is that the number of students is not divisible by any number except 1, but that's impossible. Therefore, maybe the problem is that Betty couldn't divide the students into groups of equal size, and Wilma couldn't divide the students into groups of equal size when she and Betty were both present. But that would mean that the number of",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2780.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "\\$18.90",
+      "pred_answer": "But given that we have two equations, and we found k_p and k_c, and then calculated",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/914.json",
+      "subject": "Prealgebra",
+      "level": 4,
+      "gt_answer": "75^\\circ",
+      "pred_answer": "But first, let me check if ST is parallel to QR. So, ST || QR. So, if I can find a transversal that intersects both ST and QR",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/824.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "12",
+      "pred_answer": "12",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/679.json",
+      "subject": "Number Theory",
+      "level": 2,
+      "gt_answer": "59",
+      "pred_answer": "Wait, maybe the problem is that they have coins, and they want to convert as many coins as possible into dollar bills, but the coins are in denominations that are not all in dollars. For example, if they have pennies, nickels, dimes, quarters, etc. But the problem doesn't specify the denominations. Wait, but the problem says \"convert the coins into dollars\". So, if they have coins, they can convert them into dollar bills. But the question is about the amount left after converting as many coins into bills as they could. But if they convert all coins into bills, then the amount left is zero. But that seems like the answer is zero.",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/1425.json",
+      "subject": "Algebra",
+      "level": 2,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/834.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "9",
+      "pred_answer": "9",
+      "correct": true
+    },
+    {
+      "id": "test/number_theory/72.json",
+      "subject": "Number Theory",
+      "level": 4,
+      "gt_answer": "121",
+      "pred_answer": "121",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/703.json",
+      "subject": "Precalculus",
+      "level": 5,
+      "gt_answer": "8 \\pi",
+      "pred_answer": "But wait, 5π/3 is equivalent to 5π/3 - 2π = 5π/3 - 6π/3 = -π/3, but since θ is between 0 and 2π, we can just write it as 5π/3. Similarly, 17π/9 is less than 2π? Let me check: 17π/9 is approximately 1.88π, which is less",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1114.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "15\\mbox{ cm}^2",
+      "pred_answer": "The coordinates are (0,0), (",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/224.json",
+      "subject": "Algebra",
+      "level": 4,
+      "gt_answer": "8",
+      "pred_answer": "8",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/435.json",
+      "subject": "Algebra",
+      "level": 3,
+      "gt_answer": "25",
+      "pred_answer": "Alternatively, maybe I can use the fact that 4.472^2 = 20. So, if I can find the exact value, but maybe I don't need to. The ceiling function will take the smallest integer greater than or equal to √20. Since √20 is approximately 4.472, which is between 4 and 5, but closer to 4.5. So the ceiling of that would be 5, right? Because 4.472 is less than 4.5, but the ceiling is the next integer. Wait, no. Wait, the ceiling function rounds up to the nearest integer. So if the number is between 4 and 5, but not equal to 5, then the ceiling is 5? Wait, no. Wait, if the number is 4.1, the ceiling is 5? No, wait, the ceiling of 4.1 is 5? No, wait, no. Wait, the ceiling function rounds up to the nearest integer. So if the number is 4.1, the ceiling is 5? No, that's not right. Wait, no. Wait, the ceiling function is the smallest integer greater than or equal to the number. So if the number is 4.1, the smallest integer greater than or equal to 4.1 is 5? No, that's not correct. Wait, 4.1 is between 4 and 5. The smallest integer greater than or equal to 4.1 is 5? No, that's not right. Wait, 4.1 is greater than 4, so the smallest integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is greater than 4, so the ceiling is 5? No, the ceiling of 4.1 is 5? Wait, no. Wait, the ceiling of 4.1 is 5? No, that's not. Wait, the ceiling of 4.1 is 5? No, that's not. Wait, the ceiling of 4.1 is 5? No, the ceiling of 4.1 is 5? Wait, no. Wait, the ceiling function rounds up to the nearest integer. So if the number is 4.1, the ceiling is 5? No, that's not. Wait, 4.1 is between 4 and 5. The ceiling is the smallest integer that is greater than or equal to the number. So 4.1 is greater than 4, so the smallest integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is greater than 4, so the smallest integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is between 4 and 5. The integers greater than or equal to 4.1 are 5, 6, etc. But the smallest one is 5. Wait, but 4.1 is not equal to 5. So the ceiling of 4.1 is 5? Wait, no. Wait, the ceiling function is the least integer greater than or equal to the number. So if the number is 4.1, then the least integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is greater than 4, so the least integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is greater than 4, so the least integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is between 4 and 5. The integers greater than or equal to 4.1 are 5, 6, etc. But the smallest one is 5. Wait, but 4.1 is not an integer. So the ceiling of 4.1 is 5? Wait, but 4.1 is less than 5, so the ceiling is 5? Wait, no. Wait, if the number is 4.1, then the ceiling is 5? No, that's not. Wait, the ceiling function rounds up to the nearest integer. So if the number is 4.1, then the ceiling is 5? No, that's not. Wait, no. Wait, the ceiling function rounds up to the nearest integer. So if the number is 4.1, then the ceiling is 5? No, that's not. Wait, 4.1 is 4.1, so the ceiling is 5? No, that's not. Wait, I think I'm confused here. Let me check with an example. Let's take 4.1. The ceiling of 4.1 is 5? No, that's not. Wait, the ceiling of 4.1 is 5? No, the ceiling of 4.1 is 5? Wait, no. Wait, the ceiling of 4.1 is 5? No, the ceiling of 4.1 is 5? Wait, no. Wait, the ceiling of 4.1 is 5? No, that's not. Wait, the ceiling of 4.1 is 5? No, that's not. Wait, the ceiling of 4.1 is 5? No, that's not. Wait, the ceiling of 4.1 is 5? No, that's not. Wait, the ceiling of 4.1 is 5? No, that's not. Wait, I think I need to recall the definition. The ceiling function, denoted ⌈x⌉, is the smallest integer greater than or equal to x. So if x is 4.1, then the smallest integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is greater than 4, so the smallest integer greater than or equal to 4.1 is 5? No, that's not. Wait, 4.1 is between 4 and 5. The integers greater than or equal to 4.1 are 5, 6, etc. But the smallest one is 5. Wait, but 4.1 is not equal to 5. So the ceiling of 4.1 is 5? Wait, but 4.1 is less than 5, so the ceiling is 5? Wait, no. Wait, if the number is 4.1, then the ceiling is 5? No, that's not. Wait, the ceiling function rounds up to the nearest integer. So if the number is 4.1, then the ceiling is 5? No, that's not. Wait, 4.1 is 4.1, so the ceiling is 5? No, that's not. Wait, I think I need to check with a concrete example. Let me think of numbers. For example, if x is 4.1, then the ceiling is 5? No, that's not. Wait, if x is 4.1, then the ceiling is 5? No, that's not. Wait,",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/158.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "27648",
+      "pred_answer": "Let me consider the",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/846.json",
+      "subject": "Prealgebra",
+      "level": 3,
+      "gt_answer": "84",
+      "pred_answer": "84",
+      "correct": true
+    },
+    {
+      "id": "test/algebra/2470.json",
+      "subject": "Algebra",
+      "level": 1,
+      "gt_answer": "137 \\frac{1}{2}",
+      "pred_answer": "137\\frac{1",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1930.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "7",
+      "pred_answer": "- (1",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/752.json",
+      "subject": "Intermediate Algebra",
+      "level": 1,
+      "gt_answer": "3",
+      "pred_answer": "log₆7: log base 6 of 7. 6^1 = 6, 6^1.11328 ≈ 7. So log",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/1003.json",
+      "subject": "Counting & Probability",
+      "level": 5,
+      "gt_answer": "29",
+      "pred_answer": "So, let's compute the probability of getting a sum of 7 as follows:",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1252.json",
+      "subject": "Prealgebra",
+      "level": 2,
+      "gt_answer": "200",
+      "pred_answer": "Wait, so which is it? There's a contradiction here. The problem says Martha walks along the length and width, but if she walks along the length and width, then she is going from the starting corner to the opposite corner, which is the diagonal. So, Martha's distance is the same as Jim's. Therefore, the difference is zero. But that seems odd. However, if Martha walks along the length and width, but not necessarily from the starting corner? Wait, but the problem says she gets to the same location by walking along its length and width. So, if the field is 300 feet wide and 400 feet long, then the length and width are 400 and 300. So, if Martha walks along the length and width, meaning she walks from the starting corner, goes along the length (400 feet) and then along the width (300 feet). So, that's 700 feet. But that would be going from the starting corner to the opposite corner, but going through the length and width. Wait, but if you go from the starting corner, go along the length (400 feet) to the end of the length, then go along the width (300 feet) to the end of the width, that would be the same as going from the starting corner to the opposite corner. So, that's the same as the diagonal. So, the distance is 400 + 300 = 700 feet. But the diagonal is 500 feet. So,",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/22.json",
+      "subject": "Number Theory",
+      "level": 3,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1279.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{2}{1005}",
+      "pred_answer": "Left side (degree 4) = Right side (degree 9). Therefore, bringing all terms to one side, we get a polynomial of",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1128.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/precalculus/1252.json",
+      "subject": "Precalculus",
+      "level": 2,
+      "gt_answer": "1",
+      "pred_answer": "But let me check with actual numbers. Let me take $\\omega = e^{2\\pi i /3} = -\\frac{1}{2} + i\\frac{\\sqrt{3}}",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1467.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "8n^2 + 4n + 1",
+      "pred_answer": "So, the",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/1090.json",
+      "subject": "Number Theory",
+      "level": 5,
+      "gt_answer": "202",
+      "pred_answer": "Wait, but let me think again. Is there a possibility that there are more numbers than just the powers of 5? For example, suppose n is 5^m * 2^k, but since n is odd, k must be zero. Therefore, n is 5^m. So, only powers of",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/1082.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "\\frac{8}{15}",
+      "pred_answer": "But maybe that's too involved. Alternatively, let me check",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/101.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "10",
+      "pred_answer": "Plugging x =",
+      "correct": false
+    },
+    {
+      "id": "test/counting_and_probability/199.json",
+      "subject": "Counting & Probability",
+      "level": 2,
+      "gt_answer": "13",
+      "pred_answer": "So the minimal seems to be 15. But let me check if there",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/477.json",
+      "subject": "Geometry",
+      "level": 3,
+      "gt_answer": "216",
+      "pred_answer": "Alternatively, maybe the sphere is formed by the intersection of the cube's faces. If the sphere is inscribed in the cube, then the sphere touches the cube at the centers of each face. Therefore, the radius is half the side length. Therefore,",
+      "correct": false
+    },
+    {
+      "id": "test/number_theory/239.json",
+      "subject": "Number Theory",
+      "level": 1,
+      "gt_answer": "2",
+      "pred_answer": "2",
+      "correct": true
+    },
+    {
+      "id": "test/prealgebra/1203.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "\\$36",
+      "pred_answer": "36",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1365.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "15",
+      "pred_answer": "But wait, but the problem says \"for x in the interval p ≤ x ≤ 15.\" So, if the minimum is achieved at x = 15, which is in the interval, then the minimum value is 15. But let me check if there's",
+      "correct": true
+    },
+    {
+      "id": "test/intermediate_algebra/1350.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "14",
+      "pred_answer": "But the problem says \"the polynomial has integer coefficients, and its roots are distinct integers.\" So the degree can be any number as long as the roots are distinct integers and the product is ±33. However, the leading coefficient is 2, and the constant term is 66. So the polynomial is f(x) = 2x^n + ... + 66. So the constant term is 66, which is equal to (-1)^n * product of roots * a_n. Wait",
+      "correct": false
+    },
+    {
+      "id": "test/prealgebra/1128.json",
+      "subject": "Prealgebra",
+      "level": 5,
+      "gt_answer": "64",
+      "pred_answer": "For the lips: 2 sets. Same as eyebrows.",
+      "correct": false
+    },
+    {
+      "id": "test/precalculus/356.json",
+      "subject": "Precalculus",
+      "level": 3,
+      "gt_answer": "y = -2x",
+      "pred_answer": "Yes, that seems correct. Therefore, the answer is y = -",
+      "correct": false
+    },
+    {
+      "id": "test/algebra/2779.json",
+      "subject": "Algebra",
+      "level": 5,
+      "gt_answer": "20",
+      "pred_answer": "Alternatively, maybe I need to consider that when expanding, there is a term with √6. Wait, but in my expansion, there is no √6 term. Wait",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1930.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "\\frac{1}{4}",
+      "pred_answer": "y₁ = [-a + √(a² + 4c)] / 2,",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1981.json",
+      "subject": "Intermediate Algebra",
+      "level": 4,
+      "gt_answer": "(2,12) \\cup (12,102)",
+      "pred_answer": "Therefore, the domain",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1232.json",
+      "subject": "Intermediate Algebra",
+      "level": 3,
+      "gt_answer": "\\frac{5}{13}",
+      "pred_answer": "\\dfrac{5",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/561.json",
+      "subject": "Geometry",
+      "level": 5,
+      "gt_answer": "\\frac{7}{2}",
+      "pred_answer": "Subtract 1/2: 2 - 1/2 =",
+      "correct": false
+    },
+    {
+      "id": "test/intermediate_algebra/1508.json",
+      "subject": "Intermediate Algebra",
+      "level": 5,
+      "gt_answer": "-1",
+      "pred_answer": "$ x^7 = x \\cdot",
+      "correct": false
+    },
+    {
+      "id": "test/geometry/615.json",
+      "subject": "Geometry",
+      "level": 4,
+      "gt_answer": "106^\\circ",
+      "pred_answer": "Wait, angle AHB is formed by two altitudes, AD and BE. So, maybe angle AHB is equal to 180° minus angle ACB. Let me check with the previous example where angle ACB was 90°, then angle AHB would be 90°, which is correct. If angle ACB is 60°, then angle AHB would be 120°, which is correct. So",
+      "correct": false
+    }
+  ]
+}
